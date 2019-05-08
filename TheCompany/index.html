@@ -5,6 +5,7 @@
       <title>The Company</title>
       <link href="CSS/styles.css" rel="stylesheet">
       <link href="CSS/swiper.css" rel="stylesheet">
+      <link rel="stylesheet" href="CSS/animate.css">
   </head>
   <body>
       <header>
@@ -45,34 +46,34 @@
          </div>
           
           <section id="Card">
-            <h1>Card</h1>
+            <h1 class="wow flash">Card</h1>
             <div id="items">
-              <div id="item">
+              <div id="item" class="wow fadeIn">
                 <div class="box2"></div>
                 <div class="box2-title">タイトルタイトル</div>
                 <div class="box2-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
               </div>
-                <div id="item">
+                <div id="item" class="wow fadeIn">
                 <div class="box2"></div>
                 <div class="box2-title">タイトルタイトル</div>
                 <div class="box2-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
               </div>
-                <div id="item">
+                <div id="item" class="wow fadeIn">
                 <div class="box2"></div>
                 <div class="box2-title">タイトルタイトル</div>
                 <div class="box2-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
               </div>
-                <div id="item">
+                <div id="item" class="wow fadeIn">
                 <div class="box2"></div>
                 <div class="box2-title">タイトルタイトル</div>
                 <div class="box2-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
               </div>
-                <div id="item">
+                <div id="item" class="wow fadeIn">
                 <div class="box2"></div>
                 <div class="box2-title">タイトルタイトル</div>
                 <div class="box2-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
               </div>
-                <div id="item">
+                <div id="item" class="wow fadeIn">
                 <div class="box2"></div>
                 <div class="box2-title">タイトルタイトル</div>
                 <div class="box2-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
@@ -81,7 +82,7 @@
           </section>
           
           <section id="News">
-            <div class="News-title">News</div>
+            <div class="News-title wow flash">News</div>
               <div class="label-1">
                 <div class="date">2019-01-30</div>
                 <div class="label-button">ラベル</div>
@@ -116,7 +117,7 @@
           </section>
           
           <section id="Price">
-            <div class="Price-title">Price</div>
+            <div class="Price-title wow flash">Price</div>
             <div class="Price-flex">
                 <div class="Price-image"><img src="images/price-img.png"></div>
                 <div id="table">
@@ -153,7 +154,7 @@
           </section>
           
           <section id="Access">
-              <div id="Access-title">Access</div>
+              <div id="Access-title" class="wow flash">Access</div>
               <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25063.860125399988!2d140.84821920000002!3d38.25671155000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a28180c510b87%3A0xb2a30b91be1ffdbc!2z5LuZ5Y-w6aeF!5e0!3m2!1sja!2sjp!4v1556259918331!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
               <table>
                  <tr>
@@ -169,7 +170,7 @@
           </section>
           
           <section id="Contact">
-            <div id="Contact-title">Contact</div>
+            <div id="Contact-title" class="wow flash">Contact</div>
               <form>
                 <dl>
                  <dt id="name">お名前<br><div id="require">必須</div></dt>
@@ -230,5 +231,9 @@
          </div>
       </footer>
       <script src="js/swiper.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
   </body>
 </html>
